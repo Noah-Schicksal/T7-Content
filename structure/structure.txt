@@ -1,0 +1,53 @@
+T7-content/
+│
+├── index.html
+│
+├── pages/------------------------------- Todas as páginas do site
+│   ├── sobre.html
+│   ├── contato.html
+│   ├── galeria.html
+│   ├── produtos/
+│   │   ├── lista.html
+│   │   └── item.html
+│   └── artigos/
+│       ├── index.html
+│       └── artigo1.html
+│
+├── css/--------------------------------- arquivos de estilo
+│   ├── reset.css
+│   ├── global.css
+│   ├── components/
+│   │   ├── navbar.css
+│   │   ├── footer.css
+│   │   └── card.css
+│   └── pages/
+│       ├── home.css
+│       ├── sobre.css
+│       ├── contato.css
+│       └── galeria.css
+│
+├── js/---------------------------------- arquivos JavaScript
+│   ├── global.js
+│   ├── components/
+│   │   ├── modal.js
+│   │   └── carousel.js
+│   └── pages/
+│       ├── home.js
+│       ├── sobre.js
+│       ├── contato.js
+│       └── galeria.js
+│
+├── assets/------------------------------ arquivos estáticos
+│   ├── img/
+│   │   ├── logo/
+│   │   ├── banners/
+│   │   ├── produtos/
+│   │   └── geral/
+│   ├── icons/
+│   └── fonts/
+│
+└── components/-------------------------- HTMLs reutilizáveis
+    ├── header.html
+    ├── navbar.html
+    ├── footer.html
+    └── card.html
