@@ -1,53 +1,46 @@
 T7-content/
 │
-├── index.html
+├── index.html                      <-- entra aqui e o SPA inicia
 │
-├── pages/------------------------------- Todas as páginas do site
-│   ├── sobre.html
-│   ├── contato.html
-│   ├── galeria.html
-│   ├── produtos/
-│   │   ├── lista.html
-│   │   └── item.html
-│   └── artigos/
-│       ├── index.html
-│       └── artigo1.html
-│
-├── css/--------------------------------- arquivos de estilo
-│   ├── reset.css
-│   ├── global.css
-│   ├── components/
-│   │   ├── navbar.css
-│   │   ├── footer.css
-│   │   └── card.css
-│   └── pages/
-│       ├── home.css
-│       ├── sobre.css
-│       ├── contato.css
-│       └── galeria.css
-│
-├── js/---------------------------------- arquivos JavaScript
-│   ├── global.js
-│   ├── components/
-│   │   ├── modal.js
-│   │   └── carousel.js
-│   └── pages/
-│       ├── home.js
-│       ├── sobre.js
-│       ├── contato.js
-│       └── galeria.js
-│
-├── assets/------------------------------ arquivos estáticos
-│   ├── img/
-│   │   ├── logo/
-│   │   ├── banners/
-│   │   ├── produtos/
-│   │   └── geral/
+├── assets/
+│   ├── fonts/
 │   ├── icons/
-│   └── fonts/
+│   └── images/
 │
-└── components/-------------------------- HTMLs reutilizáveis
-    ├── header.html
-    ├── navbar.html
-    ├── footer.html
-    └── card.html
+├── components/
+│   ├── card.html
+│   ├── footer.html
+│   ├── navbar.html                 <-- importante para SPA
+│   │
+│   └── css/                        <-- estilo exclusivo dos componentes
+│       ├── footer.css
+│       ├── card.css
+│       └── navbar.css
+│
+├── css/
+│   └── global.css                  <-- estilos base, resets, variáveis
+│
+├── js/
+│   ├── global.js                   <-- scripts globais, helpers
+│   ├── router.js                   <-- responsável pelas rotas
+│   ├── app.js                      <-- inicializa o SPA
+│   │
+│   └── components/
+│       └── modal.js
+│
+└── views/
+    ├── pages/                      <-- HTML das telas carregadas dinamicamente
+    │   ├── home.html
+    │   ├── sobre.html
+    │   ├── contato.html
+    │   └── produtos.html
+    │
+    ├── css/                        <-- css de cada view
+    │   ├── home.css
+    │   ├── sobre.css
+    │   └── contato.css
+    │
+    └── js/                         <-- script de cada view
+        ├── home.js
+        ├── sobre.js
+        └── contato.js
